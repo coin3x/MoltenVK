@@ -1520,6 +1520,7 @@ void MVKCmdClearAttachments<N>::encode(MVKCommandEncoder* cmdEncoder) {
     cmdEncoder->_depthBiasState.markDirty();
     cmdEncoder->_viewportState.markDirty();
     cmdEncoder->_scissorState.markDirty();
+	cmdEncoder->_transformFeedbackBinding.markDirty();
 }
 
 template <size_t N>

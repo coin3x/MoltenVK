@@ -237,6 +237,7 @@
 				A9DA833F218A193F002AA662 /* Git */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		A92DB3E11CE0F34500FBC835 /* Docs */ = {
 			isa = PBXGroup;
